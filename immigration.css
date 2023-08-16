@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color:ghostwhite;
+    font-family: source sans pro semibold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6b7280;
+    margin-top: 1rem;
+}
+header {
+    margin-top: -20px;
+    background-image: url(./images/nis-HQ.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 1000px;
+    box-sizing: border-box;
+    width: 100%;
+    animation-name: home;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+/* @keyframes home { 
+    from {background-image: url(./Images/nis-HQ.jpg);}
+    to {background-image: url(./Images/nis-HQ1.jpg);
+        background-size: contain;
+        background-repeat:no-repeat;
+        height: 200vh;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}*/
+.head {
+width: 100%;
+display: flex;
+flex-flow: row nowrap;
+align-items: center;
+}
+.homelogo {
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 100px;
+    height: 80px; 
+    margin-top: 10px;
+}
+.navlink {
+    width: 72%;
+    margin-top: 10px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+ }
+ .navlink a {
+    padding: 6px 10px;
+    text-decoration: none;
+    color: #4a4e55;
+ }
+ .firstdata {
+    margin-right: 65px;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 70px;
+}
+.block {
+    padding: 15px;
+    margin: 10px;
+    width: 22em;
+    height: 17em;
+    box-sizing: border-box;
+    position:relative;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.block a {
+    color: aliceblue;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+#green {
+    background-color: rgb(29, 144, 94);
+    color: aliceblue;
+}
+#ecowas1 {
+    background-color:#1c1e22;
+    color: aliceblue;
+}
+#visa {
+    background-color: #1c1e22;
+    color: aliceblue;
+}
+#ecowas2 {
+    background-color: white;
+    color: #525459;
+   
+}
+.medcen {
+    color: rgb(46, 75, 46);
+    font-size: 30px;
+}
+.media, .explorevisa, .ecowasdocument, #applypassport {
+    margin:  0 130px;
+    
+}
+.med {
+    float: left;
+    width: 28%;
+    font-size: 13px;
+}
+.med p {
+    width: 380px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.media h3 {
+    color: black;
+}
+.media a {
+    color: green;
+}
+.passportproduction {
+  margin-left: 30px;
+}
+.travelrestriction {
+    margin-left: 30px;
+}
+#applypassport {
+    clear: both;
+    padding-top: 200px;
+}
+.ok {
+    float: left;
+    width: 50%;
+}
+.waystoapply {
+    padding-top: 30px;
+    background-color: rgb(241, 244, 243);
+    height: 720px;
+    
+}
+.waystoapply h1 {
+    margin-left:80px;
+    font-size: 35px;
+    color: rgb(46, 75, 46);
+}
+.map { 
+    float: left;
+    margin-left: 30px;
+    width: 290px;
+    background-color: white;
+    height:580px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.passpo {
+    padding: 220px 120px;
+  
+}
+.passpo h3 {
+    color: green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.passpo a {
+    font-size: 13px;
+    color: green;
+    text-transform: capitalize;
+}
+.passpo h1 {
+    color: rgb(16, 30, 16);
+    font-family: sans-serif ;
+    font-size: 29px;
+}
+.passpo p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+}
+.map img {
+    width: 289px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.map h3  {
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 790;
+    color: rgba(0, 0, 0, 0.794);
+    padding-top: 10px;
+}
+.map p {
+    text-align: left;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.map a {
+    display: flex;
+    justify-content:center;
+    margin-top:25px ;
+
+}
+.pap {
+    color: rgb(74, 153, 74);
+    font-size: 13px;
+}
+.app {
+    background-color: rgb(34, 64, 34);
+    color: aliceblue;
+    font-size: 13px;
+    padding: 10px;
+    margin: 35px 90px;
+    border-radius: 5px;
+}
+.exploreall  {
+    clear: both;
+    padding-top: 80px;
+}
+.explorer {
+    background-color:rgb(241, 243, 244) ;
+    
+}
+.explorer h2 {
+    color: rgb(35, 57, 35);
+    font-size: 27px;
+    font-weight: bolder;
+    padding: 50px 0;
+}
+.explorevisa {
+    display: flex;
+    flex-wrap: wrap;
+}
+.foo {
+    width: 240px;
+    height: 420px;
+    margin: 11px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+}
+.foo img {
+    width: 239px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.explorevisa div //{
+    float: left;
+    width: 17%;
+    background-color: white;
+    height:400px;
+    margin: 13px;
+    overflow:hidden;
+    border-radius: 5px;
+}
+.exploreall //{
+    background-color: rgb(241, 244, 243);
+    height: 750px;
+    margin-top: 100px;
+
+}
+.explorevisa img, .explorevisa p, .explorevisa h3 //{
+    width: 250px;
+    text-align: center;
+}
+.explorevisa p //{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.explorevisa h3 //{
+    color: black;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.explorevisa a //{
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    color: green;
+}
+/* * { *
+    margin: 0;
+    padding:0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color:ghostwhite;
+    font-family: source sans pro semibold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6b7280;
+    margin-top: 1rem;
+}
+header {
+    background-image: url(./images/nis-HQ.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    height: 1000px;
+    box-sizing: border-box;
+}
+.homelogo {
+    float:left;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 80px; 
+}
+.nav {
+   margin-left: 300px;
+   margin-right: 100px;
+   background-color: white;
+   border-radius: 5px;
+   clear: left;
+   position:absolute;
+   display: flex;
+   margin-top: 30px;
+   padding: 6px;
+}
+.navlink {
+    text-decoration: none;
+    list-style-type: none;
+    display:inline-flex;
+    float: left;
+    margin:10px;
+}
+.navlink > li {
+    margin-left: 20px;
+}
+.navlink a {
+    text-decoration: none;
+    color: #525459;
+}
+ 
+.social {
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.firstdata {
+    display:inline-flex;
+    clear: left;
+    float: right;
+}
+.block {
+    padding: 15px;
+    margin: 10px;
+    width: 18em;
+    height: 14em;
+    box-sizing: border-box;
+    position:relative;
+    font-size: 17px;
+    border-radius: 2px;
+}
+.block a {
+    color: aliceblue;
+}
+
+
+#green {
+    background-color: rgb(29, 144, 94);
+    color: aliceblue;
+    position: absolute;
+    left: 790px;
+    margin-top: 75px;
+}
+#ecowas1{
+    background-color:#1c1e22;
+    color: aliceblue;
+    position: absolute;
+    top: 435px;
+    left: 790px;
+}
+#visa {
+    background-color: #1c1e22;
+    color: aliceblue;
+    position: absolute;
+    left: 1120px;
+    margin-top: 75px;
+}
+#ecowas2 {
+    background-color: white;
+    color: #525459;
+    position: absolute;
+    left: 1120px;
+    top: 435px;
+   
+}
+.applyshift {
+    padding-left: 70px;
+}
+.medcen {
+    color: rgb(46, 75, 46);
+    font-size: 30px;
+}
+.media,.waystoapply, .explorevisa, .ecowasdocument {
+    margin-left: 130px;
+    
+}
+.med {
+    float: left;
+    width: 28%;
+}
+.media h3 {
+    color: black;
+}
+.media a {
+    color: green;
+}
+.passportproduction {
+  margin-left: 30px;
+}
+.travelrestriction {
+    margin-left: 30px;
+}
+#applypassport {
+    clear: both;
+    padding-top: 200px;
+}
+.waystoapply{
+    padding-top: 30px;
+    background-color: rgb(241, 244, 243);
+    width: 640px;
+    height: 720px;
+    
+}
+.waystoapply h1 {
+    margin-left:80px;
+    font-size: 35px;
+    color: rgb(46, 75, 46);
+}
+.map{ 
+    float: left;
+    margin-left: 30px;
+    width: 280px;
+    background-color: white;
+    height:590px;
+    position: static;
+    border-radius: 5px;
+}
+
+.passpo{
+    float: left;
+    width: 400px;
+    position: absolute;
+    left:900px;
+    top: 1800px;
+}
+.passpo h3 {
+    color: green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.passpo a {
+    color: green;
+    text-transform: capitalize;
+}
+.passpo h1 {
+    color: rgb(16, 30, 16);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: lighter;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.passpo p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.map img {
+    width: 280px;
+    border-radius: 5px;
+}
+.map h3  {
+    width: 210px;
+    text-align: center;
+    text-justify: inherit;
+    padding-left: 60px;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.map p {
+    width: 250px;
+    text-align: left;
+    padding-left: 30px;
+}
+.pap{
+    text-align: center;
+    padding-left: 90px;
+    color: rgb(74, 153, 74);
+}
+.app {
+    width: 20px;
+    padding: 15px;
+    background-color: rgba(25, 34, 25, 0.993);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 75px;
+}
+.applyoutside {
+    margin-left: 25px;
+}
+
+.explorevisa  {
+        clear: both;
+        padding-top: 40px;
+}
+.explorevisa h2{
+    color: rgb(35, 57, 35);
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+.explorevisa div {
+    float: left;
+    width: 17%;
+    background-color: white;
+    height:400px;
+    margin: 13px;
+    overflow:hidden;
+    border-radius: 5px;
+}
+.exploreall {
+    background-color: rgb(241, 244, 243);
+    height: 750px;
+    margin-top: 100px;
+
+}.explorevisa img, .explorevisa p, .explorevisa h3 {
+    width: 250px;
+    text-align: center;
+}
+.explorevisa p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.explorevisa h3 {
+    color: black;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.explorevisa a {
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    color: green;
+}
+.ecodoc {
+    float: left;
+    width: 50%;
+    margin-top: 130px;
+
+}
+.ecodoc h2{
+    color: black;
+    font-size: 32px;
+    width: 540px;
+    line-height: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ecodoc p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 540px;
+}
+.ecodoc a {
+    width: 20px;
+    padding: 15px;
+    background-color: rgba(35, 53, 35, 0.993);
+    color: aliceblue;
+    border-radius: 5px;
+}.ecowasdocument img {
+    border-radius:5px;
+    margin-top: 70px;
+}
+.aboutnis {
+    margin-top: 100px;
+    background-color: rgb(241, 244, 243);
+    height: 565px;
+}
+.nisab, .abnis {
+    float: left;
+    width: 50%; 
+}
+.nisab img {
+    width: 100%;
+}
+.abnis {
+    padding: 50px;
+
+}
+.abnis h5 {
+    padding-left: 40px;;
+    color: green;
+}
+.abnis h2{
+    padding-left: 100px;
+    width: 500px;
+    padding-left: 40px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    line-height: 30px;
+}
+.abnis p {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    padding-left: 40px;
+}
+.abnis a {
+    width: 20px;
+    padding: 15px;
+    background-color: rgba(35, 53, 35, 0.993);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.contactnis {
+    clear: both;
+    background-color: hsl(131, 34%, 12%);
+}
